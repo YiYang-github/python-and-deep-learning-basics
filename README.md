@@ -1,6 +1,8 @@
-# python-and-deep-learning-basics
-中科大 Python与深度学习基础课程作业
+#Python与深度学习基础(USTC) 课程作业  
 
-第一次作业：
-  输入逗号也需要为英文，年份在1960-2020之间均可，国家缩写可以参考 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
-  一些示例 中国 CHN，美国 USA，日本 JPN
+##第一次作业：爬虫抓取并可视化不同国家的经济数据  
+  * 调用API：世界银行(World Bank)，抓取经济指标  
+  * 输入：开始、结束年份，国家缩写，主义逗号也需要为英文，年份在1960-2020之间均可，国家缩写可以参考[一些示例: 中国 CHN，美国 USA，日本 JPN](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)  
+  * 输出: 该时间段各个国家经济指标的折线统计对比图(默认三个指标为，GDP，人口，人均可支配收入)
+  * 本程序充分考虑鲁棒性和可扩展性
+ 
